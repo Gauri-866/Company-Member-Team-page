@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+#name {
+ background-color:  hsl(300, 77%, 70%);
+ align-items: center;
+ justify-content: space-evenly;
+ border: 2px solid rgb(240, 235, 235);
+ height: 100px;
+ width: 900px;
+ display: flex;
+ margin-left: 350px;
+ color: rgb(241, 239, 238);
+ font-weight: bolder;
+ font-size: 40px;
+ 
+}
+#discription{
+    padding: 10px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: aquamarine;
+}
+marquee {
+    --duration:10s;
+    --gap: var(--space);
+     display: flex;
+     overflow: hidden;
+}
+span {
+    color:rgb(122, 43, 226);
+}
+
+h2 {
+    margin-left: 650px;
+}
+hr{
+    color: black;
+    border: none;
+    border-top: 2px solid black;
+    
+}
+
+#box1{
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color:  hsl(300, 77%, 70%);
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(240, 235, 235);
+    height: 40px;
+    width: 500px;
+    display: flex;
+    margin-left: 500px;
+    padding: 10px ;
+    color: rgb(241, 239, 238);
+
+}
+.team{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ 
+}
+.team img {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 10px;
+}
+.para_1{
+    display: flex;
+    margin-left: 550px;
+}
+.p {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    padding-left: 200px;
+}
+.para_1{
+   word-spacing: 20px;
+}
+.para_2 {
+    word-spacing: 10px;
+    margin-left: 550px;
+    padding: 10px;
+}
+.row_1{
+    display: flex;
+    margin-left: 400px;
+    word-spacing: 25px;
+}
+.row_2{
+    display: flex;
+    margin-left: 500px;
+    word-spacing: 100px;
+}
+
+.sales{
+    display: flex;
+    margin-left: 500px;
+    white-space: 10;
+    word-spacing: 150px;
+}
+.vp_1{
+    display: flex;
+    margin-left: 500px;
+    word-spacing: 20px;
+}
+
+.vp_2{
+    display: flex;
+    margin-left: 500px;
+    word-spacing: 10px;
+}
+
+.vp_3{
+    display: flex;
+    margin-left: 600px;
+    word-spacing: 100px;
+}
+
+.footer {
+    background-color: rgb(12, 12, 12);
+    margin: 10px;
+    padding: 50px;
+}
+.pages {
+margin-left: 500px;
+color: white;
+}
+
+.copyright {
+    margin-left: 500px;
+    color: white;
+
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
